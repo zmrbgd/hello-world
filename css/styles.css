@@ -3,6 +3,7 @@
 body, html {
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
+    background-image: url(images/pan.png);    
 }
 
 address {
@@ -12,6 +13,15 @@ address {
 
 ul, ol {
     line-height: 1.5rem;
+
+}
+
+ul {
+    list-style-type: circle;
+}
+
+ol {
+    list-style-type: decimal-leading-zero;
 }
 
 h1 {
@@ -21,8 +31,7 @@ h1 {
 
 h2 {
     font-size: 1.7rem;
-    margin-top: 50px;
-        
+    margin-top: 50px;        
 }
 
 h3 {
@@ -49,6 +58,7 @@ td {
     padding-bottom: 5px;
 }
 
+
 .quote_title {
     text-align: right;   
 }
@@ -57,3 +67,6 @@ td {
     margin-left: 50px;
 }
 
+#nav {
+    list-style-type: none;
+}
