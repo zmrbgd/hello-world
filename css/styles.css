@@ -13,11 +13,10 @@ address {
 
 ul, ol {
     line-height: 1.5rem;
-
 }
 
 ul {
-    list-style-type: circle;
+    list-style-type: disc;
 }
 
 ol {
@@ -26,7 +25,6 @@ ol {
 
 li {
     list-style-position: inside;
-    margin-bottom: 1rem;
 }
 
 h1 {
@@ -35,6 +33,7 @@ h1 {
 }
 
 h2 {
+    text-align: center;
     font-size: 1.7rem;
     margin-top: 50px;        
 }
@@ -51,6 +50,11 @@ h4 {
         
 }
 
+a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
 td {
     padding-left: 10px;
     padding-right: 10px;
@@ -60,6 +64,9 @@ td {
     margin: 1px;
 }
 
+th {
+    color: grey;
+}
 
 .quote_title {
     text-align: right;   
@@ -72,11 +79,9 @@ td {
     list-style-type: none;
 }
 
-.tbl_head th {
-    color: grey;
-}
 
-a {
-    text-decoration: none;
-    font-weight: 500;
-}
+
+
+
+
+
