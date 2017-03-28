@@ -51,17 +51,12 @@ h4 {
         
 }
 
-table {
-    border-collapse: collapse;
-}
-
 td {
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
-    border: 1px solid grey;
     margin: 1px;
 }
 
@@ -77,7 +72,7 @@ td {
     list-style-type: none;
 }
 
-.tbl_head td {
+.tbl_head th {
     color: grey;
 }
 
